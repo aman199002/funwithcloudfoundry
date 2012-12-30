@@ -7,9 +7,9 @@ gem "less-rails"
 gem 'bootstrap-sass'
 gem 'bcrypt-ruby', '3.0.1'
 gem 'vmc'
+gem 'mysql2'
 
-group :development, :test do 
-  gem 'mysql2'
+group :development, :test do   
   gem 'debugger'  
 end
 
@@ -38,6 +38,6 @@ group :assets do
   gem 'execjs'
 end
 
-group :production do
-  gem 'pg', '0.12.2'
-end	
+# group :production do
+#   gem 'pg', '0.12.2'
+# end	
